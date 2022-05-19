@@ -55,7 +55,7 @@ main{
     justify-content: space-around;
 }
 
-#titulo{
+.titulo{
     text-align: center;
     padding-top: 1cm;
     font-family: 'Oswald', sans-serif;
@@ -104,6 +104,21 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    ;
-
 }
+
+#gridAccesorios{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+
+#carouselExampleIndicators{
+    width: 25%;
+    height: 75%;
+    display: flex;
+    justify-items: center;
+}
+
+
