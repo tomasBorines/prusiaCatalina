@@ -1,124 +1,142 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-*{
-    padding: 0;
-    margin: 0;
+ul li {
+  display: inline-block;
+  padding: 0px;
+  margin-top: 2cm;
+  margin-right: 1.5cm;
+  margin-bottom: 1.5cm;
+  margin-left: 1cm;
 }
 
-header{
-    display: flex;   
-    align-items: center;
-    background-color: #376461;
-    color: #d5e5e0;
-    height: 4.5cm;
-    text-align: right;
-    position: sticky;
-    top: 0;
+ul li a {
+  text-decoration: none;
+  color: #d5e5e0;
+  font-family: 'Oswald', sans-serif;
+  border-bottom: 1px solid #d5e5e0;
 }
 
-.header{
-    grid-area: header;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.logo{
-    width: 2.5cm;
-    height: 2.5cm;
-    padding: 0px;
-    margin: 0.5cm 20cm 0cm 5cm;
-    
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #376461;
+  color: #d5e5e0;
+  height: 4.5cm;
+  text-align: right;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
-ul li{
-    display: inline-block;
-    padding: 0px;
-    margin-top: 2cm;
-    margin-right: 1.5cm;
-    margin-bottom: 1.5cm;
-    margin-left: 1cm;
+.header {
+  grid-area: header;
 }
 
-ul li a{
-    text-decoration:none;
-    color: #d5e5e0;
-    font-family: 'Oswald', sans-serif;
-    border-bottom: 1px solid #d5e5e0;
+.logo {
+  width: 2.5cm;
+  height: 2.5cm;
+  padding: 0px;
+  margin: 0.5cm 20cm 0cm 5cm;
 }
 
-main{
-    background-color: #d5e5e0;
-    color: #376461;
-    grid-area: main
+main {
+  background-color: #d5e5e0;
+  color: #376461;
+  grid-area: main;
 }
 
-.fotos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.fotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.titulo{
-    text-align: center;
-    padding-top: 1cm;
-    font-family: 'Oswald', sans-serif;
+.titulo {
+  text-align: center;
+  padding-top: 1cm;
+  font-family: 'Oswald', sans-serif;
 }
 
-figure img{
-    width: 220px;
-    height: 310px;
-    border: 1px solid #376461;
-    margin-left: 10px;
+figure img {
+  width: 220px;
+  height: 310px;
+  border: 1px solid #376461;
+  margin-left: 10px;
 }
 
-.texto{
-    text-align: center;
-    padding: 1cm;
-    font-family: 'Oswald', sans-serif;
+.texto {
+  text-align: center;
+  padding: 1cm;
+  font-family: 'Oswald', sans-serif;
 }
 
-.texto2{
-    font-family: 'Oswald', sans-serif;
-    padding: 1cm;
-    font-size: large;
-}    
-
-.parrafito1{
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
+.texto2 {
+  font-family: 'Oswald', sans-serif;
+  padding: 1cm;
+  font-size: large;
 }
 
-.parrafito2{
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
+.parrafito1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px;
+}
+
+.parrafito2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px;
 }
 
 footer {
-    background-color: #376461;
-    color: #d5e5e0;
+  background-color: #376461;
+  color: #d5e5e0;
 }
 
-
-
-#grid{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+#grid {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
 }
 
-#gridAccesorios{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
+#gridAccesorios {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
 }
 
-
-#carouselExampleIndicators{
-    width: 25%;
-    height: 75%;
-    display: flex;
-    justify-items: center;
+#carouselExampleIndicators {
+  width: 25%;
+  height: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
 }
-
-
+/*# sourceMappingURL=style.css.map */
