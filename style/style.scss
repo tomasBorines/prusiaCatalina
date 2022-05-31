@@ -1,3 +1,4 @@
+@import "generales";
 *{
     padding: 0;
     margin: 0;
@@ -12,7 +13,6 @@ header{
     text-align: right;
     position: sticky;
     top: 0;
-    
 }
 
 .header{
@@ -27,21 +27,6 @@ header{
     
 }
 
-ul li{
-    display: inline-block;
-    padding: 0px;
-    margin-top: 2cm;
-    margin-right: 1.5cm;
-    margin-bottom: 1.5cm;
-    margin-left: 1cm;
-}
-
-ul li a{
-    text-decoration:none;
-    color: #d5e5e0;
-    font-family: 'Oswald', sans-serif;
-    border-bottom: 1px solid #d5e5e0;
-}
 
 main{
     background-color: #d5e5e0;
