@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 ul li {
   display: inline-block;
   padding: 0px;
@@ -50,6 +51,7 @@ main {
   background-color: #d5e5e0;
   color: #376461;
   grid-area: main;
+  text-align: center;
 }
 
 .fotos {
@@ -94,8 +96,9 @@ figure img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content: center;
   padding: 50px;
+  align-items: center;
 }
 
 .parrafito2 {
@@ -103,13 +106,24 @@ figure img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content: center;
   padding: 50px;
+  align-items: center;
 }
 
 footer {
   background-color: #376461;
   color: #d5e5e0;
+  font-family: 'Oswald', sans-serif;
+  height: 6em;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
 
 #grid {
@@ -117,9 +131,9 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 #gridAccesorios {
