@@ -149,6 +149,24 @@ footer {
   justify-items: center;
 }
 
+.cuadradito{
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  border: #376461 solid 2px;
+  margin-top: 3em;
+  margin-bottom: 10em;
+  width: 70%;
+  justify-content: center;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
 #carouselExampleIndicators {
   width: 25%;
   height: 75%;
@@ -164,12 +182,13 @@ footer {
   border: solid #376461 2px;
   width: 35%;
   justify-content: center;
+  margin-top: 3em;
+  margin-bottom: 10em;
 }
 
 .boxForm{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 3em;
-  margin-bottom: 10em;
+  
 }
