@@ -52,6 +52,7 @@ main {
   color: #376461;
   grid-area: main;
   text-align: center;
+  height: 100%;
 }
 
 .fotos {
@@ -115,7 +116,7 @@ footer {
   background-color: #376461;
   color: #d5e5e0;
   font-family: 'Oswald', sans-serif;
-  height: 6em;
+  height: 5em;
 }
 
 .footer{
@@ -128,12 +129,15 @@ footer {
 
 #grid {
   width: 100%;
+  height: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr;
+  column-gap: 2em;
+  row-gap: 2em;
 }
 
 #gridAccesorios {
@@ -154,3 +158,18 @@ footer {
   justify-items: center;
 }
 /*# sourceMappingURL=style.css.map */
+
+.formulario{
+  display: flex;
+  border: solid #376461 2px;
+  width: 35%;
+  justify-content: center;
+}
+
+.boxForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3em;
+  margin-bottom: 10em;
+}
